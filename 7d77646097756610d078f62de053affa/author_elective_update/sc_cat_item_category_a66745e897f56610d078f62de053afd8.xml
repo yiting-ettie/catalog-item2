@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Section View">4e1968e097756610d078f62de053af46</sc_cat_item>
+        <sc_category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-25 15:08:50</sys_created_on>
+        <sys_id>a66745e897f56610d078f62de053afd8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Can We Help You?.Section View</sys_name>
+        <sys_package display_value="Catalog Item-2" source="x_1755921_catalo_0">7d77646097756610d078f62de053affa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item-2">7d77646097756610d078f62de053affa</sys_scope>
+        <sys_update_name>sc_cat_item_category_a66745e897f56610d078f62de053afd8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-25 15:08:50</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Catalog Item-2">7d77646097756610d078f62de053affa</application>
+        <file_path/>
+        <instance_id>c5fef5a63b992a9016e44a8aa4e45af0</instance_id>
+        <instance_name>dev347112</instance_name>
+        <name>sc_cat_item_category_a66745e897f56610d078f62de053afd8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Section View">4e1968e097756610d078f62de053af46</sc_cat_item><sc_category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-25 15:08:50</sys_created_on><sys_id>a66745e897f56610d078f62de053afd8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Can We Help You?.Section View</sys_name><sys_package display_value="Catalog Item-2" source="x_1755921_catalo_0">7d77646097756610d078f62de053affa</sys_package><sys_policy/><sys_scope display_value="Catalog Item-2">7d77646097756610d078f62de053affa</sys_scope><sys_update_name>sc_cat_item_category_a66745e897f56610d078f62de053afd8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-25 15:08:50</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-764896472</payload_hash>
+        <record_name>Can We Help You?.Section View</record_name>
+        <reverted_from/>
+        <source>f2c860e097756610d078f62de053af1d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-25 15:08:50</sys_created_on>
+        <sys_id>266745e897f56610d078f62de053afdd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19707fd4edd0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-25 15:08:50</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>666745e878f566104dd3cf4ba94675dc</update_guid>
+        <update_guid_history>666745e878f566104dd3cf4ba94675dc:-764896472</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Can We Help You?.Section View">7d984d2c97f56610d078f62de053af12</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-25 15:13:59</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>3f51c0cad97a4976b172771bb077d091</sys_id>
+        <sys_metadata>a66745e897f56610d078f62de053afd8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Can We Help You?.Section View</sys_name>
+        <sys_package display_value="Catalog Item-2" source="x_1755921_catalo_0">7d77646097756610d078f62de053affa</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item-2">7d77646097756610d078f62de053affa</sys_scope>
+        <sys_scope_delete display_value="">22d4e3dfe76e4e7aa4ba3abd3b8bde44</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_a66745e897f56610d078f62de053afd8</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_a66745e897f56610d078f62de053afd8">266745e897f56610d078f62de053afdd</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-25 15:13:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

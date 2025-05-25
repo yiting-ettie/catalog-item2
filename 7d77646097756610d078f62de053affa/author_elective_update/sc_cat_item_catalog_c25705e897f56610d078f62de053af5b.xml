@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Section View">4e1968e097756610d078f62de053af46</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-25 15:08:32</sys_created_on>
+        <sys_id>c25705e897f56610d078f62de053af5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Section View</sys_name>
+        <sys_package display_value="Catalog Item-2" source="x_1755921_catalo_0">7d77646097756610d078f62de053affa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item-2">7d77646097756610d078f62de053affa</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_c25705e897f56610d078f62de053af5b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-25 15:08:32</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Catalog Item-2">7d77646097756610d078f62de053affa</application>
+        <file_path/>
+        <instance_id>c5fef5a63b992a9016e44a8aa4e45af0</instance_id>
+        <instance_name>dev347112</instance_name>
+        <name>sc_cat_item_catalog_c25705e897f56610d078f62de053af5b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Section View">4e1968e097756610d078f62de053af46</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-25 15:08:32</sys_created_on><sys_id>c25705e897f56610d078f62de053af5b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Section View</sys_name><sys_package display_value="Catalog Item-2" source="x_1755921_catalo_0">7d77646097756610d078f62de053affa</sys_package><sys_policy/><sys_scope display_value="Catalog Item-2">7d77646097756610d078f62de053affa</sys_scope><sys_update_name>sc_cat_item_catalog_c25705e897f56610d078f62de053af5b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-25 15:08:32</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-603079794</payload_hash>
+        <record_name>Service Catalog.Section View</record_name>
+        <reverted_from/>
+        <source>f2c860e097756610d078f62de053af1d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-25 15:08:32</sys_created_on>
+        <sys_id>ca5705e897f56610d078f62de053af5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19707fd07090000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-25 15:08:32</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>0e5705e818f56610012fad0c53a6bb5e</update_guid>
+        <update_guid_history>0e5705e818f56610012fad0c53a6bb5e:-603079794</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Section View">025705e897f56610d078f62de053af6e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-25 15:08:32</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>33cf78663fc74b209a25634a62ad2610</sys_id>
+        <sys_metadata>c25705e897f56610d078f62de053af5b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Section View</sys_name>
+        <sys_package display_value="Catalog Item-2" source="x_1755921_catalo_0">7d77646097756610d078f62de053affa</sys_package>
+        <sys_parent display_value="Section View">4e1968e097756610d078f62de053af46</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item-2">7d77646097756610d078f62de053affa</sys_scope>
+        <sys_scope_delete display_value="">22d4e3dfe76e4e7aa4ba3abd3b8bde44</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_c25705e897f56610d078f62de053af5b</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_c25705e897f56610d078f62de053af5b">ca5705e897f56610d078f62de053af5f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-25 15:08:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
