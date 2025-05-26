@@ -8,7 +8,7 @@
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
         <cat_item display_value="Section View">4e1968e097756610d078f62de053af46</cat_item>
-        <cat_variable/>
+        <cat_variable>IO:c30c64e497756610d078f62de053affd</cat_variable>
         <condition/>
         <description/>
         <field/>
@@ -24,7 +24,7 @@
    }
 
    //Type appropriate comment here, and begin script below
-   g_form.setDisplay('variable_1', false);
+    g_form.setDisplay('variable_1', false);
 	g_form.setDisplay('variable_2', false);
 	g_form.setDisplay('variable_3', false);
 	g_form.setDisplay('variable_4', false);
@@ -56,6 +56,14 @@
 		g_form.setDisplay('variable_9', true);
 		g_form.setDisplay('variable_10', true);
 	}
+	// 通知 AngularJS 更新
+    var widgetElement = angular.element(document.querySelector('.your-widget-class'));
+    if (widgetElement) {
+        var scope = widgetElement.scope();
+        scope.$applyAsync(function() {
+            scope.c.currentSection = newValue;
+        });
+    }
 }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -63,7 +71,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1d85c92897f56610d078f62de053af48</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Section Change</sys_name>
         <sys_overrides/>
         <sys_package display_value="Catalog Item-2" source="x_1755921_catalo_0">7d77646097756610d078f62de053affa</sys_package>
@@ -71,11 +79,11 @@
         <sys_scope display_value="Catalog Item-2">7d77646097756610d078f62de053affa</sys_scope>
         <sys_update_name>catalog_script_client_1d85c92897f56610d078f62de053af48</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-25 15:01:10</sys_updated_on>
+        <sys_updated_on>2025-05-26 08:32:41</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>
-        <va_supported>true</va_supported>
+        <va_supported>false</va_supported>
         <variable_set/>
         <view/>
     </catalog_script_client>

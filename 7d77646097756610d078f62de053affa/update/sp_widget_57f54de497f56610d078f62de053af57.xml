@@ -3,31 +3,49 @@
         <category>custom</category>
         <client_script><![CDATA[function($scope) {
 	var c = this;
-	c.setSection1Visible = function() {
-		var g_form = $scope.page.g_form;
-		g_form.setValue('current_section','1');
-	},
-		c.setSection2Visible = function() {
-		var g_form = $scope.page.g_form;
-		g_form.setValue('current_section','2');
-	},
-		c.setSection3Visible = function() {
-		var g_form = $scope.page.g_form;
-		g_form.setValue('current_section','3');
-	},
-		c.setSection4Visible = function() {
-		var g_form = $scope.page.g_form;
-		g_form.setValue('current_section','4');
-	},
-		c.setSection5Visible = function() {
-		var g_form = $scope.page.g_form;
-		g_form.setValue('current_section','5');
-	},
-		c.setSection6Visible = function() {
-		var g_form = $scope.page.g_form;
-		g_form.setValue('current_section','6');
+	
+	const changeSection=function(sectionID){
+		
+		const g_form = $scope.page.g_form;
+		
+		g_form.setDisplay('variable_1', false);
+		g_form.setDisplay('variable_2', false);
+		g_form.setDisplay('variable_3', false);
+		g_form.setDisplay('variable_4', false);
+		g_form.setDisplay('variable_5', false);
+		g_form.setDisplay('variable_6', false);
+		g_form.setDisplay('variable_7', false);
+		g_form.setDisplay('variable_8', false);
+		g_form.setDisplay('variable_9', false);
+		g_form.setDisplay('variable_10', false);
+		
+		const first=2*sectionID-1;
+		const second=first+1
+		
+		g_form.setDisplay('variable_'+first, true);
+		g_form.setDisplay('variable_'+second, true);
 	}
-}]]></client_script>
+	
+	c.setSection1Visible = function() {
+		changeSection(1);
+	};
+	c.setSection2Visible = function() {
+		changeSection(2);
+	};
+	c.setSection3Visible = function() {
+		changeSection(3);
+	};
+	c.setSection4Visible = function() {
+		changeSection(4);
+	};
+	c.setSection5Visible = function() {
+		changeSection(5);
+	};
+	c.setSection6Visible = function() {
+		changeSection(6);
+	};
+}
+]]></client_script>
         <controller_as>c</controller_as>
         <css>.btn-breadcrumb .btn:not(:last-child):after {
   content: " ";
@@ -104,14 +122,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-05-25 15:02:36</sys_created_on>
         <sys_id>57f54de497f56610d078f62de053af57</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_name>Catalog Item Section</sys_name>
         <sys_package display_value="Catalog Item-2" source="x_1755921_catalo_0">7d77646097756610d078f62de053affa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Catalog Item-2">7d77646097756610d078f62de053affa</sys_scope>
         <sys_update_name>sp_widget_57f54de497f56610d078f62de053af57</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-25 15:04:43</sys_updated_on>
+        <sys_updated_on>2025-05-26 09:12:04</sys_updated_on>
         <template><![CDATA[<div>
   <div class="btn-group btn-breadcrumb" >
     <a ng-click="c.setSection1Visible()" class="btn btn-default"><i class="glyphicon glyphicon-home"></i></a>
@@ -120,7 +138,6 @@
     <a ng-click="c.setSection3Visible()" class="btn btn-default">Section 3</a>
     <a ng-click="c.setSection4Visible()" class="btn btn-default">Section 4</a>
     <a ng-click="c.setSection5Visible()" class="btn btn-default">Section 5</a>
-    <a ng-click="c.setSection6Visible()" class="btn btn-default">Section 6</a>
   </div>
 </div>]]></template>
     </sp_widget>
