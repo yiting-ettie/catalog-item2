@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="DELETE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {  /* widget controller */  var c = this;};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>section</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Section</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-26 06:20:23</sys_created_on>
+        <sys_id>8b08dcf0977d2210d078f62de053af5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Section</sys_name>
+        <sys_package display_value="Catalog Item-2" source="x_1755921_catalo_0">7d77646097756610d078f62de053affa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item-2">7d77646097756610d078f62de053affa</sys_scope>
+        <sys_update_name>sp_widget_8b08dcf0977d2210d078f62de053af5e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-26 06:20:23</sys_updated_on>
+        <template><![CDATA[<div><!-- your widget template --></div>]]></template>
+    </sp_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Catalog Item-2">7d77646097756610d078f62de053affa</application>
+        <file_path/>
+        <instance_id>c5fef5a63b992a9016e44a8aa4e45af0</instance_id>
+        <instance_name>dev347112</instance_name>
+        <name>sp_widget_8b08dcf0977d2210d078f62de053af5e</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_widget"&gt;&lt;sp_widget action="INSERT_OR_UPDATE"&gt;&lt;category&gt;custom&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[api.controller=function() {  /* widget controller */  var c = this;};]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css/&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id&gt;section&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function link(scope, element, attrs, controller) {  }]]&gt;&lt;/link&gt;&lt;name&gt;Section&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-05-26 06:20:23&lt;/sys_created_on&gt;&lt;sys_id&gt;8b08dcf0977d2210d078f62de053af5e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Section&lt;/sys_name&gt;&lt;sys_package display_value="Catalog Item-2" source="x_1755921_catalo_0"&gt;7d77646097756610d078f62de053affa&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Catalog Item-2"&gt;7d77646097756610d078f62de053affa&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_8b08dcf0977d2210d078f62de053af5e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-05-26 06:20:23&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div&gt;&lt;!-- your widget template --&gt;&lt;/div&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-20905257</payload_hash>
+        <record_name>Section</record_name>
+        <reverted_from/>
+        <source>f2c860e097756610d078f62de053af1d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-26 06:20:23</sys_created_on>
+        <sys_id>9708dcf0977d2210d078f62de053af63</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1970b3fda040000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-26 06:20:23</sys_updated_on>
+        <type>Widget</type>
+        <update_guid>9b08dcf0327d2210915420a51fb73162</update_guid>
+        <update_guid_history>9b08dcf0327d2210915420a51fb73162:-20905257</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Section">e37231b497356210d078f62de053af6a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-26 12:55:32</sys_created_on>
+        <sys_db_object display_value="" name="sp_widget">sp_widget</sys_db_object>
+        <sys_id>1c06b8b0f23245808aec28b178161000</sys_id>
+        <sys_metadata>8b08dcf0977d2210d078f62de053af5e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Section</sys_name>
+        <sys_package display_value="Catalog Item-2" source="x_1755921_catalo_0">7d77646097756610d078f62de053affa</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Catalog Item-2">7d77646097756610d078f62de053affa</sys_scope>
+        <sys_scope_delete display_value="">22d4e3dfe76e4e7aa4ba3abd3b8bde44</sys_scope_delete>
+        <sys_update_name>sp_widget_8b08dcf0977d2210d078f62de053af5e</sys_update_name>
+        <sys_update_version display_value="sp_widget_8b08dcf0977d2210d078f62de053af5e">9708dcf0977d2210d078f62de053af63</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-26 12:55:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
